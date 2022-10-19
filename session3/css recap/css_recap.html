@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Recap</title>
+    <style>
+      #id_1 {
+        color: red;
+      }
+      a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+      }
+      .hilite {
+        background-color: #FFFFCC;
+        color: #B22222;
+        text-decoration: underline;
+      }  
+      .justify {
+        text-align: justify;
+        font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+        line-height: 2.0;
+      }
+      hr {
+        border: none;
+        background-color: #256579;
+        color: #256579;
+        height: 2px;
+        width: 80%;
+      }
+      .centered {
+        text-align: center;
+      } 
+      .transform {
+        text-transform: uppercase;
+      }
+      .curvebox {
+        width: 250px;
+        padding: 1em;
+        background-color: #B0C4DE;
+        color: #33527B;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <article>
+        <p><h2>How do I style the first item in a list
+          differently from the others?</h2></p>
+      <ul>
+        <li id="id_1">Brie</li>
+        <li>Cheddar</li>
+        <li>Red Leicester</li>
+        <li>Shropshire Blue</li>
+      </ul>
+      <p><h2>How do I remove underlines from my links?</h2></p>
+      <ol>
+        <li><a href="#">Big Widgets</a></li>
+        <li><a href="#">Small Widgets</a></li>
+        <li><a href="#">Short Widgets</a></li>
+      </ol>
+      <p><h2>How do I highlight and underline text on the page?</h2></p>
+      <p>These <span class="hilite">stuffed peppers</span> are lovely
+        as a starter or as a side dish for a Chinese meal. They also
+        go down well as part of a buffet, and even children seem to
+        like them.</p>
+      <p><h2>How do I justify text?</h2></p>
+      <p class="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <p><h2>How do I style a horizontal rule?</h2></p>
+      <p>What is Lorem Ipsum?
+        <hr>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+      <p><h2>How do I center a text?</h2></p>  
+      <p class="centered">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p><h2>How do I change text to all capitals
+        using CSS?</h2></p>
+      <p class="transform">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    
+      <p><h2>How do I create boxes with rounded
+        corners?</h2></p>
+      <p class="curvebox">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+
+    </article>
+     
+    </section>
+  </body>
+</html>
